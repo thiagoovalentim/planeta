@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planeta Turismo</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========================================= -->
+  <!-- HEADER -->
+  <!-- ========================================= -->
+
+  <header class="header">
+    <div class="container">
+      <div class="header-shell">
+
+        <a href="#hero" class="logo" aria-label="Planeta Turismo - página inicial">
+          <img src="logo-planeta-icon.png" alt="" class="logo-symbol">
+
+          <span class="logo-copy">
+            <strong>Planeta</strong>
+            <small>Turismo</small>
+          </span>
+        </a>
+
+        <nav class="navbar">
+          <ul class="menu">
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#destinos">Destinos</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="header-cta">
+          <i class="fa-brands fa-whatsapp"></i>
+          <span>Falar com Consultor</span>
+        </a>
+
+        <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================= -->
+  <!-- MENU MOBILE -->
+  <!-- ========================================= -->
+
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-shell">
+      <a href="#hero">Início</a>
+      <a href="#destinos">Destinos</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+
+      <a href="#" class="mobile-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+        Falar com Consultor
+      </a>
+    </div>
+  </div>
+
+  <!-- ========================================= -->
+  <!-- HERO -->
+  <!-- ========================================= -->
+
+  <section class="hero-banner" id="hero">
+    <div class="container hero-wrapper">
+
+      <div class="hero-left">
+
+        <h1>
+          Sua próxima <br>
+          aventura começa <br>
+          <span>aqui</span>
+        </h1>
+
+        <p>
+          Descubra os melhores destinos no Brasil com conforto,
+          segurança e as melhores condições de pagamento.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#destinos" class="btn-primary">
+            <i class="fa-solid fa-plane"></i>
+            Explorar Destinos
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========================================= -->
+  <!-- DESTINOS -->
+  <!-- ========================================= -->
+
+  <section class="destinations-section" id="destinos">
+    <div class="container">
+
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <span class="section-label">DESTINOS EM DESTAQUE</span>
+
+          <div class="title-row">
+            <h2>Escolha seu próximo destino</h2>
+
+            <div class="title-plane">
+              <span class="trail"></span>
+              <i class="fa-solid fa-plane"></i>
+            </div>
+          </div>
+        </div>
+
+        <a href="#" class="view-all-button">
+          Ver todos os destinos
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="carousel-area">
+
+        <button class="carousel-button carousel-prev" aria-label="Destino anterior">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="destinations-carousel" id="destinationsCarousel">
+
+          <!-- 1 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="ouro-preto.jpg" alt="Ouro Preto">
+              <span class="state-badge">MG</span>
+
+              <div class="destination-title-overlay">
+                <h3>Ouro Preto</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>08/05 a 09/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-bus"></i>
+                  <span>Bate e volta</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-route"></i>
+                  <span>Transporte e passeios</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 200,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="milho-verde.jpg" alt="Milho Verde">
+              <span class="state-badge">MG</span>
+
+              <div class="destination-title-overlay">
+                <h3>Milho Verde</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>15/05 a 17/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-bed"></i>
+                  <span>2 diárias em pousada</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mug-saucer"></i>
+                  <span>Café da manhã</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 400,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="guarapari.jpg" alt="Guarapari">
+              <span class="state-badge">ES</span>
+
+              <div class="destination-title-overlay">
+                <h3>Guarapari</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>11/05 a 14/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>3 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>Café da manhã e almoço</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 450,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="ilha-de-guriri.jpg" alt="Ilha de Guriri">
+              <span class="state-badge">ES</span>
+
+              <div class="destination-title-overlay">
+                <h3>Ilha de Guriri</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>15/05 a 17/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-bed"></i>
+                  <span>2 diárias em pousada</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mug-saucer"></i>
+                  <span>Café da manhã (domingo)</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 350,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 5 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="coroa-vermelha.jpg" alt="Coroa Vermelha">
+              <span class="state-badge">BA</span>
+
+              <div class="destination-title-overlay">
+                <h3>Coroa Vermelha</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>11/05 a 14/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>3 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>Café da manhã e almoço</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 550,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 6 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="prado.jpg" alt="Prado">
+              <span class="state-badge">BA</span>
+
+              <div class="destination-title-overlay">
+                <h3>Prado</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>14/05 a 17/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>3 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-mug-saucer"></i>
+                  <span>Café da manhã</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 600,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 7 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="alcobaca.jpg" alt="Alcobaça">
+              <span class="state-badge">BA</span>
+
+              <div class="destination-title-overlay">
+                <h3>Alcobaça</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>15/05 a 17/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-bed"></i>
+                  <span>2 diárias em pousada</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>2 cafés e 1 almoço</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 400,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 8 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="cabo-frio.jpg" alt="Cabo Frio">
+              <span class="state-badge">RJ</span>
+
+              <div class="destination-title-overlay">
+                <h3>Cabo Frio</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>11/05 a 14/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>3 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>3 cafés e 2 almoços</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 650,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 9 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="caldas-novas.jpg" alt="Caldas Novas">
+              <span class="state-badge">GO</span>
+
+              <div class="destination-title-overlay">
+                <h3>Caldas Novas</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>16/05 a 21/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>4 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>Pensão completa</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 1.400,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- 10 -->
+          <article class="destination-card">
+            <div class="destination-image">
+              <img src="aparecida.jpg" alt="Aparecida">
+              <span class="state-badge">SP</span>
+
+              <div class="destination-title-overlay">
+                <h3>Aparecida</h3>
+              </div>
+            </div>
+
+            <div class="destination-content">
+              <ul class="destination-info">
+                <li>
+                  <i class="fa-regular fa-calendar"></i>
+                  <span>22/05 a 24/05</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-hotel"></i>
+                  <span>2 diárias em hotel</span>
+                </li>
+
+                <li>
+                  <i class="fa-solid fa-utensils"></i>
+                  <span>2 cafés, 2 almoços e 1 jantar</span>
+                </li>
+              </ul>
+
+              <div class="destination-footer">
+                <div class="price-box">
+                  <span>A partir de</span>
+                  <strong>R$ 550,00</strong>
+                </div>
+
+                <a href="#" class="details-button">
+                  Ver Detalhes
+                  <i class="fa-solid fa-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+        <button class="carousel-button carousel-next" aria-label="Próximo destino">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+      </div>
+
+      <div class="carousel-dots" id="carouselDots"></div>
+
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
